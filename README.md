@@ -14,3 +14,5 @@ We don't propose that all applications must expose this information, just that w
 [Readiness](READY.md)
 
 [About](ABOUT.md)
+
+[Health](HEALTH.md)
