@@ -12,3 +12,5 @@ Many of our applications need to expose common information to other systems such
 We don't propose that all applications must expose this information, just that when they do, it should be done consistently.
 
 [Readiness](READY.md)
+
+[About](ABOUT.md)
