@@ -5,7 +5,7 @@ Readiness endpoint
 Path
 ----
 
-```/__/ready```
+`/__/ready`
 
 Purpose
 -------
