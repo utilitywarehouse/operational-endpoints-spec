@@ -47,6 +47,8 @@ MUST return JSON in the form of the following example
 }
 ```
 
+MUST return `200` if the check was performed properly. (not just if the service is healthy. Non `200` would indicate that the check did not complete)
+
 The JSON payload:
 
 MUST include:
