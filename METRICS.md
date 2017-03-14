@@ -14,7 +14,7 @@ Behaviour
 ---------
 Where implemented this endpoint:
 
-MUST return `Content-Type: text/plain`
+MUST return text/plain when requested in the request Accept headers and by default when no Accept header is provided
 
 MUST return the payload in the form of the following example([Prometheus metrics format](https://prometheus.io/docs/instrumenting/exposition_formats/))
 ```
@@ -56,4 +56,4 @@ rpc_duration_seconds_sum 1.7560473e+07
 rpc_duration_seconds_count 2693
 ```
 
-OPTIONALLY in addition to the text based format can also return a protocol buffer format `Content-Type: application/vnd.google.protobuf`
+MAY in addition to the text based format also return an application/vnd.google.protobuf format when requested in the request Accept headers
