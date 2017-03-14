@@ -17,3 +17,5 @@ All operational endpoints live under `/__/` to make grouping of the handlers/con
 [About](ABOUT.md)
 
 [Health](HEALTH.md)
+
+[Metrics](METRICS.MD)
