@@ -16,6 +16,8 @@ Where implemented this endpoint:
 
 MUST return text/plain when requested in the request Accept headers and by default when no Accept header is provided
 
+MAY in addition to the text based format also return an application/vnd.google.protobuf format when requested in the request Accept headers
+
 MUST return the payload in the form of the following example([Prometheus metrics format](https://prometheus.io/docs/instrumenting/exposition_formats/))
 ```
 # HELP http_requests_total The total number of HTTP requests.
@@ -55,5 +57,3 @@ rpc_duration_seconds{quantile="0.99"} 76656
 rpc_duration_seconds_sum 1.7560473e+07
 rpc_duration_seconds_count 2693
 ```
-
-MAY in addition to the text based format also return an application/vnd.google.protobuf format when requested in the request Accept headers
